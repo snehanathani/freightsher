@@ -1,121 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SSShipping - Global Logistics Partner</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-  </style>
-</head>
-<body class="bg-white text-gray-800">
-  <!-- Hero -->
-  <section class="bg-blue-900 text-white py-20 px-6 text-center">
-    <h1 class="text-5xl font-bold mb-4">SSShipping Agencies</h1>
-    <p class="text-xl">Your Trusted Partner in Global Logistics Since 1994</p>
-  </section>
+<nav aria-label="Main Navigation">
+  <ul class="flex flex-wrap justify-center gap-6 text-lg font-medium tracking-wide text-gray-800">
+    
+    <!-- Home -->
+    <li>
+      <a href="/" title="Freight and Cargo Services Home - SS Shipping"
+         class="hover:text-blue-600 transition-colors duration-300">
+        🏠 Home
+      </a>
+    </li>
 
-  <!-- Profile -->
-  <section class="py-16 px-6 max-w-5xl mx-auto">
-    <h2 class="text-3xl font-bold mb-6 text-center">About Us</h2>
-    <p class="text-lg leading-relaxed text-gray-700">
-      Established in 1994, S.S. Shipping Agencies started operations at Kandla and Mundra Ports. With an expanding footprint, we're now operational in Ahmedabad. Over the years, we’ve earned a reputation for integrity and efficiency with port and customs authorities, offering expertise in handling a wide variety of cargo across India and internationally.
-    </p>
-  </section>
+    <!-- Services -->
+    <li class="group relative">
+      <a href="/services" title="Our Shipping, Freight Forwarding & Logistics Services"
+         class="hover:text-blue-600 transition-colors duration-300">
+        🚛 Services
+      </a>
+      <ul class="absolute hidden group-hover:block mt-2 bg-white shadow-lg rounded-xl p-4 space-y-2 text-sm w-56 z-50">
+        <li><a href="/services/ocean-freight" title="Ocean Freight Shipping Services" class="block hover:text-blue-600">🌊 Ocean Freight</a></li>
+        <li><a href="/services/air-freight" title="Air Freight Cargo Services" class="block hover:text-blue-600">✈️ Air Freight</a></li>
+        <li><a href="/services/warehousing" title="Warehouse & Distribution Services" class="block hover:text-blue-600">🏬 Warehousing</a></li>
+        <li><a href="/services/custom-clearance" title="Customs Clearance Support" class="block hover:text-blue-600">🛃 Customs Clearance</a></li>
+      </ul>
+    </li>
 
-  <!-- Services -->
-  <section class="bg-gray-50 py-16 px-6">
-    <h2 class="text-3xl font-bold mb-10 text-center">Our Services</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="p-6 border rounded-xl shadow bg-white">
-        <h3 class="font-semibold text-xl mb-3">Customs Clearance</h3>
-        <p>Efficient clearance services at major Gujarat ports like Kandla, Mundra, Pipavav, and Ahmedabad ICD.</p>
-      </div>
-      <div class="p-6 border rounded-xl shadow bg-white">
-        <h3 class="font-semibold text-xl mb-3">Documentation</h3>
-        <p>Comprehensive support including duty drawbacks, IGST refunds, and DGFT licensing.</p>
-      </div>
-      <div class="p-6 border rounded-xl shadow bg-white">
-        <h3 class="font-semibold text-xl mb-3">Freight Forwarding</h3>
-        <p>Global freight forwarding via top shipping liners with competitive rates and wide coverage.</p>
-      </div>
-      <div class="p-6 border rounded-xl shadow bg-white">
-        <h3 class="font-semibold text-xl mb-3">Transportation</h3>
-        <p>Fleet of trucks and reefers for efficient inland cargo movement and just-in-time delivery.</p>
-      </div>
-      <div class="p-6 border rounded-xl shadow bg-white">
-        <h3 class="font-semibold text-xl mb-3">Customer Support</h3>
-        <p>Daily status reports, customized logistics support, and DDU/DDP capabilities for global shipments.</p>
-      </div>
-    </div>
-  </section>
+    <!-- About Us -->
+    <li>
+      <a href="/about" title="Learn About SS Shipping - Our Legacy & Mission"
+         class="hover:text-blue-600 transition-colors duration-300">
+        👨‍✈️ About Us
+      </a>
+    </li>
 
-  <!-- Global Presence -->
-  <section class="py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-8">Our Global Presence</h2>
-    <div class="flex justify-center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/World_map_blank_shorelines.png" alt="Global Map" class="w-full max-w-4xl rounded-xl shadow" />
-    </div>
-  </section>
+    <!-- Track Shipment -->
+    <li>
+      <a href="/track" title="Track Your Shipment - Real-Time Cargo Tracking"
+         class="hover:text-blue-600 transition-colors duration-300">
+        📦 Track Shipment
+      </a>
+    </li>
 
-  <!-- Clients -->
-  <section class="bg-gray-50 py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-10">Our Esteemed Clients</h2>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto text-sm text-gray-600">
-      <p>M/s. Arvind Electropumps Ltd., Ahmedabad</p>
-      <p>M/s. Lykis Ltd., Mumbai</p>
-      <p>M/s. Whitefield Overseas Ltd., Faridabad</p>
-      <p>M/s. Ramdev Food Products Pvt. Ltd., Ahmedabad</p>
-      <p>M/s. Freudenberg Gala, Anand</p>
-      <p>M/s. Kitchen Xpress Overseas Ltd., Ahmedabad</p>
-      <p>M/s. Bajaj Foods Ltd, Ahmedabad</p>
-      <p>M/s. Helium Overseas Pvt. Ltd., Delhi</p>
-      <!-- Add more clients as needed -->
-    </div>
-  </section>
+    <!-- Blog -->
+    <li>
+      <a href="/blog" title="Shipping Industry Insights, Tips & News"
+         class="hover:text-blue-600 transition-colors duration-300">
+        📚 Blog
+      </a>
+    </li>
 
-  <!-- Branches -->
-  <section class="py-16 px-6 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold text-center mb-6">Our Branches</h2>
-    <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg text-gray-700">
-      <li><strong>Mundra</strong></li>
-      <li><strong>Kandla</strong></li>
-      <li><strong>Pipavav</strong></li>
-      <li><strong>ICD Ahmedabad</strong></li>
-    </ul>
-  </section>
-
-  <!-- Contact Us -->
-  <section class="bg-blue-900 text-white py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-      <div>
-        <h3 class="font-semibold text-xl mb-2">Main Office</h3>
-        <p>S. S. Shipping Agencies,<br />
-        Office No. 210/211, Siddhi Vinayak Complex,<br />
-        Nr. Rotary Circle, Plot No. 1, Ward 6,<br />
-        Gandhidham, Gujarat (Kutch) - 370201<br />
-        Email: sss@ssshipping.net, info@ssshipping.net<br />
-        Phone: 02836 - 458707, 225226</p>
-      </div>
-      <div>
-        <h3 class="font-semibold text-xl mb-2">Ahmedabad Branch</h3>
-        <p>S. S. Shipping Agencies,<br />
-        C3 / 41, Orchid Harmony, Applewood’s Township,<br />
-        South Bopal, Ahmedabad – 380058<br />
-        Tarun Sethi: +91 98252 25050<br />
-        Email: tarun@ssshipping.net<br />
-        Chetan Vadera: +91 99244 47066<br />
-        Email: chetan.ahm@ssshipping.net</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-white text-center py-6">
-    <p>&copy; 2025 S. S. Shipping Agencies. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+    <!-- Contact -->
+    <li>
+      <a href="/contact" title="Get in Touch With Our Shipping Experts"
+         class="hover:text-blue-600 transition-colors duration-300">
+        📞 Contact
+      </a>
+    </li>
+  </ul>
+</nav>
