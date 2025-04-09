@@ -1,58 +1,95 @@
-<nav aria-label="Main Navigation">
-  <ul class="flex flex-wrap justify-center gap-6 text-lg font-medium tracking-wide text-gray-800">
-    
-    <!-- Home -->
-    <li>
-      <a href="/" title="Freight and Cargo Services Home - SS Shipping"
-         class="hover:text-blue-600 transition-colors duration-300">
-        🏠 Home
-      </a>
-    </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SS Shipping offers global freight solutions including ocean freight, air cargo, customs clearance, and warehousing. Fast, reliable & professional." />
+  <meta name="keywords" content="Shipping, Freight, Logistics, Ocean Freight, Air Freight, Customs Clearance, Warehousing" />
+  <meta name="author" content="SS Shipping" />
+  <title>SS Shipping | Global Freight & Logistics Services</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css">
+</head>
 
-    <!-- Services -->
-    <li class="group relative">
-      <a href="/services" title="Our Shipping, Freight Forwarding & Logistics Services"
-         class="hover:text-blue-600 transition-colors duration-300">
-        🚛 Services
-      </a>
-      <ul class="absolute hidden group-hover:block mt-2 bg-white shadow-lg rounded-xl p-4 space-y-2 text-sm w-56 z-50">
-        <li><a href="/services/ocean-freight" title="Ocean Freight Shipping Services" class="block hover:text-blue-600">🌊 Ocean Freight</a></li>
-        <li><a href="/services/air-freight" title="Air Freight Cargo Services" class="block hover:text-blue-600">✈️ Air Freight</a></li>
-        <li><a href="/services/warehousing" title="Warehouse & Distribution Services" class="block hover:text-blue-600">🏬 Warehousing</a></li>
-        <li><a href="/services/custom-clearance" title="Customs Clearance Support" class="block hover:text-blue-600">🛃 Customs Clearance</a></li>
-      </ul>
-    </li>
+<body class="bg-gray-50 text-gray-900 font-sans leading-relaxed tracking-wide">
 
-    <!-- About Us -->
-    <li>
-      <a href="/about" title="Learn About SS Shipping - Our Legacy & Mission"
-         class="hover:text-blue-600 transition-colors duration-300">
-        👨‍✈️ About Us
-      </a>
-    </li>
+  <!-- Header / Navigation -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">🌐 SS Shipping</h1>
+      <nav aria-label="Main Navigation">
+        <ul class="flex flex-wrap gap-6 text-sm sm:text-base font-medium">
+          <li><a href="/" title="Home" class="hover:text-blue-600 transition">🏠 Home</a></li>
+          <li class="relative group">
+            <a href="/services" title="Our Services" class="hover:text-blue-600 transition">🚛 Services</a>
+            <ul class="absolute hidden group-hover:block mt-2 bg-white shadow-xl rounded-lg p-4 space-y-2 text-sm w-56 z-50">
+              <li><a href="/services/ocean-freight" class="block hover:text-blue-600">🌊 Ocean Freight</a></li>
+              <li><a href="/services/air-freight" class="block hover:text-blue-600">✈️ Air Freight</a></li>
+              <li><a href="/services/warehousing" class="block hover:text-blue-600">🏬 Warehousing</a></li>
+              <li><a href="/services/custom-clearance" class="block hover:text-blue-600">🛃 Customs Clearance</a></li>
+            </ul>
+          </li>
+          <li><a href="/about" class="hover:text-blue-600 transition">👨‍✈️ About Us</a></li>
+          <li><a href="/track" class="hover:text-blue-600 transition">📦 Track Shipment</a></li>
+          <li><a href="/blog" class="hover:text-blue-600 transition">📚 Blog</a></li>
+          <li><a href="/contact" class="hover:text-blue-600 transition">📞 Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Track Shipment -->
-    <li>
-      <a href="/track" title="Track Your Shipment - Real-Time Cargo Tracking"
-         class="hover:text-blue-600 transition-colors duration-300">
-        📦 Track Shipment
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-20 text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-4xl sm:text-5xl font-bold mb-6">Reliable Global Shipping Solutions</h2>
+      <p class="text-lg sm:text-xl mb-8">From ocean to air, warehousing to customs, we handle it all — on time, every time.</p>
+      <a href="/contact" class="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+        Get a Free Quote 🚢
       </a>
-    </li>
+    </div>
+  </section>
 
-    <!-- Blog -->
-    <li>
-      <a href="/blog" title="Shipping Industry Insights, Tips & News"
-         class="hover:text-blue-600 transition-colors duration-300">
-        📚 Blog
-      </a>
-    </li>
+  <!-- Services Section -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-10">📦 Our Core Services</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
+          <h4 class="text-xl font-semibold mb-2">🌊 Ocean Freight</h4>
+          <p>Secure, global sea shipping with full container (FCL) & less-than-container (LCL) options.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
+          <h4 class="text-xl font-semibold mb-2">✈️ Air Freight</h4>
+          <p>Fast, time-sensitive air cargo handling with global reach and reliable schedules.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
+          <h4 class="text-xl font-semibold mb-2">🏬 Warehousing</h4>
+          <p>Short and long-term storage, inventory control, and 24/7 secure facilities.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
+          <h4 class="text-xl font-semibold mb-2">🛃 Customs Clearance</h4>
+          <p>Expert documentation & clearance services to get your goods moving faster.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <li>
-      <a href="/contact" title="Get in Touch With Our Shipping Experts"
-         class="hover:text-blue-600 transition-colors duration-300">
-        📞 Contact
+  <!-- Call to Action -->
+  <section class="bg-white py-16 text-center">
+    <div class="max-w-2xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-4">Ready to Ship With Confidence?</h3>
+      <p class="mb-6 text-gray-700">Join hundreds of businesses who trust SS Shipping for reliable freight and logistics services.</p>
+      <a href="/contact" class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+        Let's Talk Logistics 📞
       </a>
-    </li>
-  </ul>
-</nav>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-10">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="mb-4">© 2025 SS Shipping. All rights reserved.</p>
+      <p class="text-sm">Delivering excellence across oceans, skies, and borders. 🌍</p>
+    </div>
+  </footer>
+</body>
+</html>
